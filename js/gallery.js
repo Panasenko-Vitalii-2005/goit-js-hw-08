@@ -82,7 +82,7 @@ function handleGalleryClick(event) {
     return;
   }
   const largeImageUrl = event.target.dataset.source;
-  const instance = basicLightBox.create(
+  const instance = basicLightbox.create(
     `<img src="${largeImageUrl}" width="800" height="600">`,
   );
   instance.show();
